@@ -8,7 +8,7 @@ public class Selection_sort {
             swap(last,max,arr);
         }
         for(int i=0;i<arr.length;i++){
-            System.out.println(arr[i]+"");
+            System.out.print(arr[i]+" ");
         }
     }
     static void swap(int last,int max,int[] arr){
