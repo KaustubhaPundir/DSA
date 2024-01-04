@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Bubble_sort {
     public static void main(String[] args) {
         int[] arr={3,5,1,6,3,9,111,49,999,444,8,1000,7};
