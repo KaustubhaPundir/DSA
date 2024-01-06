@@ -4,7 +4,7 @@ public class Pattern1 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.print("Enter the number of rows of the pattern: ");
-        int n= input.nextInt();
+        int n=input.nextInt();
         pattern(n);
     }
     static void pattern(int n){
