@@ -4,7 +4,7 @@ public class Pattern3 {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.print("Enter any integer: ");
-        int n= input.nextInt();
+        int n=input.nextInt();
         pattern(n);
     }
     static void pattern(int n){
