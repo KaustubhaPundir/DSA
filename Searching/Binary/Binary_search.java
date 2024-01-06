@@ -5,7 +5,7 @@ public class Binary_search {
         int[] arr={1,2,3,4,5,6,7,8,9,10};
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the number to be searched : ");
-        int search= input.nextInt();
+        int search=input.nextInt();
         int ret=bin_search(search,arr);
         if (ret!=-1){
             System.out.println(search+" is at "+(ret+1)+" position in the array");
