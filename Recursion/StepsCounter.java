@@ -26,7 +26,6 @@ public class StepsCounter {
         }
         return steps;
     }
-    
     //we use helper function because we cant tell the user to enter 0 as the argument for steps that will not be a good practice
     static int numberofsteps(int num){
         return helper(num,0);
